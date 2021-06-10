@@ -133,6 +133,11 @@
     .trailer_btn i {
         margin-right: 8px;
     }
+    
+    iframe {
+        width: 560px;
+        height: 315px;
+    }
     /* Nav customization */
     
     .owl-prev,
