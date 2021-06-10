@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <!-- Responsivity -->
+    <link rel="stylesheet" href="style/responsive.css">
+    <!-- Owl CSS -->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+    <!-- Modal -->
+    <link rel="stylesheet" href="style/modal.css">
+
+    <title>Flix-Clone</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h2 class="logo">NETFLIX</h2>
+            <nav>
+                <a href="#">Início</a>
+                <a href="#">Filmes</a>
+                <a href="#">Séries</a>
+                <a href="#">Documentários</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="principal">
+            <div class="container">
+                <h3 class="titulo">HOUSE OF CARDS</h3>
+                <p class="descricao">Nada pode impedir o político sem escrúpulos Frank Underwood de conquistar Washington. Assista agora a nova temporada de House of Cards que está imperdível.
+                </p>
+                <div class="botoes">
+                    <button role="button" class="botao">
+                        <i class="fa fa-play"></i>
+                        ASSISTIR AGORA
+                    </button>
+                    <button role="button" class="botao">
+                        <i class="fas fa-info-circle"></i>
+                        MAIS INFORMAÇÔES
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="carrossel-filmes">
+        <div class="owl-carousel owl-theme">
+
+            <div class="item">
+                <a href="#openModal1">
+                    <img class="box-film" src="img/movie1.jpg" alt="Cruela">
+                </a>
+            </div>
+            <div class="item">
+                <img class="box-film" src="img/movie2.jpg" alt="Mortal Kombat">
+                <a href="#openModal2" class="trailer">
+                    <button role="button" class="botao">
+                        <i class="fa fa-play"></i>
+                        TRAILER
+                    </button>
+                </a>
+            </div>
+            <div class="item">
+                <img class="box-film" src="img/movie3.jpg" alt="Godzilla vs Kong">
+            </div>
+            <div class="item">
+                <img class="box-film" src="img/movie4.jpg" alt="Snydercut">
+            </div>
+            <div class="item">
+                <img class="box-film" src="img/movie5.jpg" alt="Demon Slayer">
+            </div>
+            <div class="item">
+                <img class="box-film" src="img/movie6.jpg" alt="Monster pets">
+            </div>
+            <div class="item">
+                <img class="box-film" src="img/movie7.jpg" alt="Soul">
+            </div>
+            <div class="item">
+                <img class="box-film" src="img/movie8.jpg" alt="Naruto">
+            </div>
+        </div>
+    </div>
+
+    <!-- Modais -->
+    <!-- 1 -->
+    <div id="openModal1" class="modalDialog">
+        <div>
+            <a href="#close" title="Close" class="close">X</a>
+            <h2>Cruella</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/gmRKv7n2If8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p>In 1970s London amidst the punk rock revolution, a young grifter named Estella is determined to make a name for herself with her designs. She befriends a pair of young thieves who appreciate her appetite for mischief, and together they are
+                able to build a life for themselves on the London streets. One day, Estella’s flair for fashion catches the eye of the Baroness von Hellman, a fashion legend who is devastatingly chic and terrifyingly haute. But their relationship sets
+                in motion a course of events and revelations that will cause Estella to embrace her wicked side and become the raucous, fashionable and revenge-bent Cruella.</p>
+        </div>
+    </div>
+    <!-- 2 -->
+    <div id="openModal2" class="modalDialog">
+        <div>
+            <a href="#close" title="Close" class="close">X</a>
+            <h2>Mortal Kombat</h2>
+        </div>
+    </div>
+</body>
+<script src="js/owl/jquery.min.js"></script>
+<script src="js/owl/owl.carousel.min.js"></script>
+<script src="js/setup.js"></script>
+
+</html>
